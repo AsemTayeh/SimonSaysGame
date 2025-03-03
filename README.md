@@ -14,13 +14,18 @@ and code reuse, as well as flexibility for expansions or new features.
 
 Screenshots:
 ### Main screen:
-![image](https://github.com/user-attachments/assets/66c64097-f012-44cf-9618-df2f7b7654c6)
+![image](https://github.com/user-attachments/assets/d684c025-66c2-45b8-9aec-7acbdebc6cd8)
 
 ### While playing:
-![image](https://github.com/user-attachments/assets/e47e4b63-c668-445b-856d-2be53502e34d)
+![image](https://github.com/user-attachments/assets/d336497b-70ed-41fc-9ed9-9b19623edde1)
 
 ### If you lose:
-![image](https://github.com/user-attachments/assets/436b7d17-0818-4add-9699-eb75f8a169d0)
+![image](https://github.com/user-attachments/assets/bf6bf1bc-9700-4a66-9e73-d6bfa9180648)
+
+## Now featuring Easy Mode!
+Easy mode showcases the AI's sequence up until the current point, making the game much easier, easy mode can be activated during the game in-case you want to save your current streak, and can be toggled on or off whenever you'd like incase you need a little help!
+![image](https://github.com/user-attachments/assets/d5aefd15-ed51-465d-9b3a-a61994b24b4b)
+
 
 ### How it works:
 Game state is tracked using an event listener for the user's key presses, when a user starts the game their key presses are no longer used to ensure smooth gameplay, animations and sounds are played once the user starts the game, and the AI is prompted to make a color choice
