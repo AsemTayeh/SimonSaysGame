@@ -17,7 +17,7 @@ Screenshots:
 ### While playing:
 ![image](https://github.com/user-attachments/assets/e47e4b63-c668-445b-856d-2be53502e34d)
 
-### If you lose
+### If you lose:
 ![image](https://github.com/user-attachments/assets/436b7d17-0818-4add-9699-eb75f8a169d0)
 
 ### How it works:
