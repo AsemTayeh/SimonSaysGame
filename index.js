@@ -63,6 +63,7 @@ function removeSimonChoices() {
     let simonFlex = document.querySelector(".simon-array");
     simonFlex.innerHTML = "";
 }
+
 function gameOver() {
     levelObjectForUpdation.innerHTML ="Game over! press any key to restart<br><br>Max Level: " + levelCounter; 
     document.querySelector("body").classList.add("game-over");
