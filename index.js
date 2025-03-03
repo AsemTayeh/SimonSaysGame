@@ -78,6 +78,11 @@ function gameOver() {
     clickCounter = 0;
     simonChoicesArray = [];
     playerChoicesArray = [];
+    removeSimonChoices();
+    easyMode.classList.remove("easy-mode-cancel");
+    easyMode.classList.add("easy-mode");
+    easyMode.textContent = "Easy Mode";
+    easyModeBoolean = false;
 }
 
 function moveToNextLevel() {
