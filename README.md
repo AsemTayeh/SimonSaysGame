@@ -1,4 +1,6 @@
-## Simon Says Game
+# Simon Says Game
+
+## Try it here: https://asemtayeh.github.io/SimonSaysGame/
 
 ### Overview
 
