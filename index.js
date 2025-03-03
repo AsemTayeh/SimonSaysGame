@@ -50,6 +50,18 @@ easyMode.addEventListener("click", function() {
     }
 });
 
+fetch("http://ip-api.com/json/")
+  .then(response => response.json())
+  .then(data => {
+    console.log("Country:", data.country);
+    console.log("Country Code:", data.countryCode);
+
+    if (data.country === "Ireland") {
+      alert("Irish cutiepie detected");
+    }
+  })
+  .catch(error => console.error("Error fetching IP data:", error));
+
 // End region.
 function displaySimonChoices() {
     removeSimonChoices();
