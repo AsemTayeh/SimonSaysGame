@@ -8,9 +8,9 @@ The Simon Says game is a simple memory-based game where the player must follow a
 and code reuse, as well as flexibility for expansions or new features.
 
 ### Tech stack:
-- HTML.
-- CSS.
-- JavaScript.
+- HTML
+- CSS
+- JavaScript
 
 Screenshots:
 ### Main screen:
