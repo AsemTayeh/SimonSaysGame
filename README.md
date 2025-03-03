@@ -24,6 +24,7 @@ Screenshots:
 
 ## Now featuring Easy Mode!
 Easy mode showcases the AI's sequence up until the current point, making the game much easier, easy mode can be activated during the game in-case you want to save your current streak, and can be toggled on or off whenever you'd like incase you need a little help!
+
 ![image](https://github.com/user-attachments/assets/d5aefd15-ed51-465d-9b3a-a61994b24b4b)
 
 
