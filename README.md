@@ -1,6 +1,6 @@
 # Simon Says Game (Now with easy mode)
 
-## Try it here: https://asemtayeh.github.io/SimonSaysGame/
+## Try it here (Full Mobile support): https://asemtayeh.github.io/SimonSaysGame/
 
 ### Overview
 
