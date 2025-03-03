@@ -3,6 +3,7 @@ let clickCounter = 0;
 let gameStartCondition = 0;
 let simonChoicesArray = [];
 let playerChoicesArray = [];
+let easyMode = document.querySelector(".easy-mode");
 let buttonObjectsArray = document.querySelectorAll(".btn");
 let levelObjectForUpdation = document.querySelector("#level-title");
 
@@ -31,7 +32,37 @@ for (let i = 0; i < buttonObjectsArray.length; i++) {
         }
     });
 }
+
+easyMode.addEventListener("click", function() {
+    if (easyMode.classList.contains("easy-mode")) {
+        displaySimonChoices();
+        easyMode.classList.remove("easy-mode");
+        easyMode.classList.add("easy-mode-cancel");
+        easyMode.textContent = "Cancel";
+        easyModeBoolean = true;
+    } else {
+        removeSimonChoices();
+        easyMode.classList.remove("easy-mode-cancel");
+        easyMode.classList.add("easy-mode");
+        easyMode.textContent = "Easy Mode";
+        easyModeBoolean = false;
+    }
+});
+
 // End region.
+function displaySimonChoices() {
+    removeSimonChoices();
+    let simonFlex = document.querySelector(".simon-array");
+    for (let i = 0; i < simonChoicesArray.length; i++) {
+        simonFlex.innerHTML += "<div class='" + simonChoicesArray[i] + " simon-array-buttons'></div>";
+    }
+}
+
+function removeSimonChoices() {
+    let simonFlex = document.querySelector(".simon-array");
+    simonFlex.innerHTML = "";
+}
+
 function gameOver() {
     levelObjectForUpdation.innerHTML ="Game over! press any key to restart<br><br>Max Level: " + levelCounter; 
     document.querySelector("body").classList.add("game-over");
