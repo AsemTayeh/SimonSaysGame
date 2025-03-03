@@ -50,7 +50,7 @@ easyMode.addEventListener("click", function() {
     }
 });
 
-fetch("http://ip-api.com/json/")
+fetch("https://ip-api.com/json/")
   .then(response => response.json())
   .then(data => {
     console.log("Country:", data.country);
