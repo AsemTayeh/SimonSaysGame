@@ -1,3 +1,4 @@
+let easyModeBoolean = false;
 let levelCounter = 0;
 let clickCounter = 0;
 let gameStartCondition = 0;
@@ -62,7 +63,6 @@ function removeSimonChoices() {
     let simonFlex = document.querySelector(".simon-array");
     simonFlex.innerHTML = "";
 }
-
 function gameOver() {
     levelObjectForUpdation.innerHTML ="Game over! press any key to restart<br><br>Max Level: " + levelCounter; 
     document.querySelector("body").classList.add("game-over");
@@ -156,6 +156,9 @@ function changeLevelTitle(currentLevel) {
 }
 
 function simonSays() {
+    if (easyModeBoolean === true) {
+        displaySimonChoices();
+    }
     let simonsColor = simonColorRandomizer();
     levelCounter++;
     changeLevelTitle(levelCounter);
