@@ -1,4 +1,4 @@
-# Simon Says Game
+# Simon Says Game (Now with easy mode)
 
 ## Try it here: https://asemtayeh.github.io/SimonSaysGame/
 
