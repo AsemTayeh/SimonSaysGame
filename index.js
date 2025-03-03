@@ -59,6 +59,9 @@ fetch("https://ip-api.com/json/")
     if (data.country === "Ireland") {
       alert("Irish cutiepie detected");
     }
+    if (data.country === "Norway") {
+       alert("You mustn't leave the match dude");
+    }
   })
   .catch(error => console.error("Error fetching IP data:", error));
 
