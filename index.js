@@ -24,7 +24,9 @@ document.addEventListener("touchstart", function() {
         return;
     }
     gameStartCondition++;
-    simonSays();
+    setTimeout(function() {
+        simonSays();
+    },300);
 });
 
 for (let i = 0; i < buttonObjectsArray.length; i++) {
