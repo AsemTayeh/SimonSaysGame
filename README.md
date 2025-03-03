@@ -2,7 +2,7 @@
 
 ### Overview
 
-The Simon Says game is a simple memory-based game where the player must follow an increasing sequence of colors, created with an increasing difficulty level for each level, made using event-driven programming and functional programming to ensure readability, optimization
+The Simon Says game is a simple memory-based game where the player must follow an increasing sequence of colors, created with an increasing difficulty setting for each level, made using event-driven programming and functional programming to ensure readability, optimization
 and code reuse, as well as flexibility for expansions or new features.
 
 ### Tech stack:
