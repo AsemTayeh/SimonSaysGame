@@ -11,7 +11,16 @@ let levelObjectForUpdation = document.querySelector("#level-title");
 // Live region:
 document.addEventListener("keydown", function() {
     if (gameStartCondition > 0) {
-        console.log("Game already started" + gameStartCondition);
+        console.log("Game already started");
+        return;
+    }
+    gameStartCondition++;
+    simonSays();
+});
+
+document.addEventListener("touchstart", function() {
+    if (gameStartCondition > 0) {
+        console.log("Game already started");
         return;
     }
     gameStartCondition++;
